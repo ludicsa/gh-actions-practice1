@@ -5,7 +5,7 @@ on:
 branches:
   - master
 jobs:
-  "Lint, Test and Deploy": null
+  Lint, Test and Deploy:
   runs-on: ubuntu-latest
   steps:
     - name: Checkout
@@ -19,6 +19,6 @@ jobs:
 
     - name: Run test
       run: npm run test
-      
+
     - name: Run build
       run: npm run build
