@@ -5,7 +5,7 @@ branches:
   - master
 
 jobs:
-  lint-test-deploy:
+  test-lint-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
