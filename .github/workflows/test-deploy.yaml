@@ -1,9 +1,6 @@
 name: Test and Deploy
 on: push
 
-branches:
-  - master
-
 jobs:
   test-lint-deploy:
     runs-on: ubuntu-latest
