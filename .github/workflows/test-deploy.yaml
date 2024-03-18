@@ -12,7 +12,7 @@ jobs:
         run: npm ci
 
       - name: list directory
-       run: ls .
+        run: ls .
 
       - name: lint
         run: npm run lint
