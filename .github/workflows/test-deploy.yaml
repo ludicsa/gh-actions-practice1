@@ -11,6 +11,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      -name: list directory
+       run: ls .
+
       - name: lint
         run: npm run lint
 
